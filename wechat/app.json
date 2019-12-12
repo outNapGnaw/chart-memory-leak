@@ -5,7 +5,8 @@
     "pages/f2/index",
     "pages/bizgoblin/index",
     "pages/echarts/index",
-    "pages/g2/index"
+    "pages/g2/index",
+    "pages/highcharts/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

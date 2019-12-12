@@ -19,6 +19,7 @@ export default class Index extends Component {
     { name: 'f2', path: 'f2' },
     { name: 'g2', path: 'g2' },
     { name: 'echarts', path: 'echarts' },
+    { name: 'highcharts', path: 'highcharts' },
     { name: 'bizgoblin', path: 'bizgoblin' }
   ]
 

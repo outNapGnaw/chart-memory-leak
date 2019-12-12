@@ -26,6 +26,7 @@
     "bizgoblin": "^0.2.0",
     "echarts": "^4.5.0",
     "echarts-for-react": "^2.0.15-beta.1",
+    "highcharts": "^7.2.1",
     "p-to-r": "^1.0.4",
     "preact": "^10.1.0"
   },
@@ -66,7 +67,8 @@
     "f2": "antv/f2",
     "bizgoblin": "bizgoblin",
     "echarts": "echarts",
-    "g2": "antv/g2"
+    "g2": "antv/g2",
+    "highcharts": "highcharts"
   },
   "include": [
     "@ruiyun"
