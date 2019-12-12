@@ -1,0 +1,61 @@
+{
+  "name": "chart-memory-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "add-page": "h666 add",
+    "start": "h666 start --port=3000",
+    "build:dev": "h666 build --target=dev",
+    "build:pro": "h666 build --target=production",
+    "build:pro:analyse": "h666 build --target=production --analyse=./stats.json",
+    "build:dev:h5plus": "h666 build --target=dev --container=h5plus",
+    "build:pro:h5plus": "h666 build --target=production --container=h5plus",
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ruiyun/preact-m-nav": "^1.2.81",
+    "preact": "^10.1.0"
+  },
+  "devDependencies": {
+    "@ruiyun/h666-cli": "^2.0.0-beta.10",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.19.1"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "commonChunks": [
+    "p-to-r",
+    "preact-layout-suite",
+    "preact-m-nav",
+    "@ruiyun/ajax",
+    "@ruiyun/preact-text"
+  ],
+  "pages": {
+    "index": "主页",
+    "list": "列表页"
+  },
+  "include": [
+    "@ruiyun"
+  ],
+  "browsers": [
+    "android >= 4.4",
+    "ios >= 8"
+  ]
+}
