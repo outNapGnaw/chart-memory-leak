@@ -17,6 +17,7 @@ const Item = ({ name, onClick }) => (
 export default class Index extends Component {
   demoList = [
     { name: 'f2', path: 'f2' },
+    { name: 'g2', path: 'g2' },
     { name: 'echarts', path: 'echarts' },
     { name: 'bizgoblin', path: 'bizgoblin' }
   ]

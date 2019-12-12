@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@antv/f2": "^3.5.0-beta.0",
+    "@antv/g2": "^3.5.11",
     "@ruiyun/preact-layout-suite": "^1.2.77",
     "@ruiyun/preact-line": "^1.2.39",
     "@ruiyun/preact-m-nav": "^1.2.81",
@@ -64,7 +65,8 @@
     "list": "列表页",
     "f2": "antv/f2",
     "bizgoblin": "bizgoblin",
-    "echarts": "echarts"
+    "echarts": "echarts",
+    "g2": "antv/g2"
   },
   "include": [
     "@ruiyun"
