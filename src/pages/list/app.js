@@ -5,7 +5,7 @@ import style from './app.css'
 @WithNav
 export default class List extends Component {
   state = {
-    name: 'wenjun'
+    name: 'demo'
   }
 
   back = () => {

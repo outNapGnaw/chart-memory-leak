@@ -16,7 +16,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@antv/f2": "^3.5.0-beta.0",
+    "@ruiyun/preact-layout-suite": "^1.2.77",
+    "@ruiyun/preact-line": "^1.2.39",
     "@ruiyun/preact-m-nav": "^1.2.81",
+    "@ruiyun/preact-m-scroller": "^1.2.77",
+    "@ruiyun/preact-text": "^1.2.39",
+    "bizgoblin": "^0.2.0",
+    "echarts": "^4.5.0",
+    "echarts-for-react": "^2.0.15-beta.1",
+    "p-to-r": "^1.0.4",
     "preact": "^10.1.0"
   },
   "devDependencies": {
@@ -41,15 +50,21 @@
     "access": "public"
   },
   "commonChunks": [
+    "preact",
     "p-to-r",
-    "preact-layout-suite",
-    "preact-m-nav",
+    "@ruiyun/preact-layout-suite",
+    "@ruiyun/preact-m-nav",
     "@ruiyun/ajax",
+    "@ruiyun/preact-m-scroller",
+    "@ruiyun/preact-line",
     "@ruiyun/preact-text"
   ],
   "pages": {
     "index": "主页",
-    "list": "列表页"
+    "list": "列表页",
+    "f2": "antv/f2",
+    "bizgoblin": "bizgoblin",
+    "echarts": "echarts"
   },
   "include": [
     "@ruiyun"

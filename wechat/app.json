@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/list/index"
+    "pages/list/index",
+    "pages/f2/index",
+    "pages/bizgoblin/index",
+    "pages/echarts/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
