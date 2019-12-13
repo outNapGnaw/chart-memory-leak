@@ -1,4 +1,4 @@
-# 用来复现常见图标库是否存在内存泄漏，Base [wen911119/h666](https://github.com/wen911119/h666)
+# 用来复现常见图标库([bizgoblin](https://github.com/alibaba/BizGoblin)、[echarts](https://github.com/apache/incubator-echarts)、[f2](https://github.com/antvis/F2)、[g2](https://github.com/antvis/G2))是否存在内存泄漏，Base [wen911119/h666](https://github.com/wen911119/h666)
 ### 原理
 一次渲染30个甚至更多的图表来复现ios safari下的内存泄露错误，导致个别图表无法正常渲染。目前已知bizgoblin必现
 ### error eg.
