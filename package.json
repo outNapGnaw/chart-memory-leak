@@ -22,6 +22,7 @@
     "@ruiyun/preact-line": "^1.2.39",
     "@ruiyun/preact-m-nav": "^1.2.81",
     "@ruiyun/preact-m-scroller": "^1.2.77",
+    "@ruiyun/preact-m-tabs-simple": "^1.2.77",
     "@ruiyun/preact-text": "^1.2.39",
     "bizgoblin": "^0.2.0",
     "echarts": "^4.5.0",
